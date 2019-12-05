@@ -2,9 +2,9 @@
 
 ### Java客户端Jedis
 * [Jedis的获取](https://github.com/Cynaith/Redis/blob/master/src/main/java/com/ly/redis/Jedis/getJedis.md)
-* Jedis的使用
-* Jedis常用API
-* Jedis事务
+* [Jedis的使用](https://github.com/Cynaith/Redis/blob/master/src/main/java/com/ly/redis/Jedis/useJedis.md)
+* [Jedis常用API](https://github.com/Cynaith/Redis/blob/master/src/main/java/com/ly/redis/Jedis/apiForJedis.md)
+* [Jedis事务](https://github.com/Cynaith/Redis/blob/master/src/main/java/com/ly/redis/Jedis/jedisAffairs.md)
 * Jedis主从复制
 * Jedis的连接池
 ---
