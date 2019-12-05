@@ -8,8 +8,8 @@
 * Jedis主从复制
 * Jedis的连接池
 ---
-### Java操作Redis的类型
-* Java操作Redis字符串类型
+### [Java操作Redis的类型](https://github.com/Cynaith/Redis/tree/master/src/main/java/com/ly/redis/DataType)
+* [Java操作Redis字符串类型](https://github.com/Cynaith/Redis/blob/master/src/main/java/com/ly/redis/DataType/String.md)
 * Java操作Redis列表类型
 * Java操作Redis集合类型
 * Java操作Redis哈希类型
