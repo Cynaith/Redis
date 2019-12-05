@@ -1,6 +1,6 @@
 Jedis
 ===
-####Jedis的获取
+## Jedis的获取
 - Maven环境下,需在pom.xml文件中引入Jedis配置
 ````xml
 <!-- https://mvnrepository.com/artifact/redis.clients/jedis -->
@@ -11,13 +11,13 @@ Jedis
 </dependency>
 ````
 ---
-####Jedis的使用
+#### Jedis的使用
 
 - java语言:
 ```java
     Jedis jedis = new Jedis("127.0.0.1",6379);
 ```
-####Jedis常见API
+#### Jedis常见API
 
 ```java
     //创建Jedis实例，连接Redis本地服务
@@ -44,7 +44,7 @@ Jedis
     //返回当前REdis服务器的时间，相当于执行TIME命令
     jedis.time();
 ```
-####Jedis事务
+#### Jedis事务
 * 一个事务执行过程具体氛以下几步
     * 使用MULTI命令开启事务
     * 事务命令入队
