@@ -1,4 +1,4 @@
-##Java 操作字符类型
+## Java 操作字符类型
 
 - **查看键为mykey的值是否存在:** `jedis.exists("mykey");`
 - **键mykey的值为:** `jedis.get("mykey");`
