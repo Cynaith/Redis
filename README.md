@@ -13,4 +13,4 @@
 * [Java操作Redis列表类型](https://github.com/Cynaith/Redis/blob/master/src/main/java/com/ly/redis/DataType/List.md)
 * [Java操作Redis集合类型](https://github.com/Cynaith/Redis/blob/master/src/main/java/com/ly/redis/DataType/Set.md)
 * [Java操作Redis哈希类型](https://github.com/Cynaith/Redis/blob/master/src/main/java/com/ly/redis/DataType/Hash.md)
-* [Java操作Redis有序集合类型](https://github.com/Cynaith/Redis/blob/master/src/main/java/com/ly/redis/DataType/SortedSet.md)
+* [Java操作Redis有序集合类型](https://github.com/Cynaith/Redis/blob/master/src/main/java/com/ly/redis/DataType/SortedSet1.md)
