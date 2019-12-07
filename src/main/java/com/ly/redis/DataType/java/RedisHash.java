@@ -28,5 +28,6 @@ public class RedisHash {
         System.out.println(jedis.hkeys("bigCity2"));
         System.out.println(jedis.hvals("bigCity2"));
 
+
     }
 }

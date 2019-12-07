@@ -17,4 +17,5 @@
 
 ### Redis常见问题
 * [Redis和memcached区别](https://github.com/Cynaith/Redis/blob/master/src/main/java/com/ly/redis/Base/whyRedis.md)
+* [Redis是如何进行过期处理的](https://github.com/Cynaith/Redis/blob/master/src/main/java/com/ly/redis/Base/howToOverdue.md)
 
