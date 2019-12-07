@@ -29,7 +29,5 @@
     ```
     为了兼顾数据和写入性能，用户可以考虑 appendfsync everysec选项 ，让Redis每秒同步一次AOF文件，Redis性能几乎没受到任何影响。而且这样即使出现系统崩溃，用户最多只会丢失一秒之内产生的数据。当硬盘忙于执行写入操作的时候，Redis还会优雅的放慢自己的速度以便适应硬盘的最大写入速度。
     
-    
-    
-    
- For more information, please refer to [https://redis.io/topics/persistence](https://redis.io/topics/persistence)
+---
+<br>&nbsp;&nbsp;&nbsp;&nbsp;For more information, please refer to [https://redis.io/topics/persistence](https://redis.io/topics/persistence)
