@@ -14,3 +14,7 @@
 * [Java操作Redis集合类型](https://github.com/Cynaith/Redis/blob/master/src/main/java/com/ly/redis/DataType/Set.md)
 * [Java操作Redis哈希类型](https://github.com/Cynaith/Redis/blob/master/src/main/java/com/ly/redis/DataType/Hash.md)
 * [Java操作Redis有序集合类型](https://github.com/Cynaith/Redis/blob/master/src/main/java/com/ly/redis/DataType/SortedSet1.md)
+
+### Redis常见问题
+* [Redis和memcached区别](https://github.com/Cynaith/Redis/blob/master/src/main/java/com/ly/redis/Base/whyRedis.md)
+
