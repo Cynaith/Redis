@@ -9,3 +9,9 @@
 - **查看member的score:** ` jedis.zscore("class1", "xiaoming");`
 - **查看有序集合中member的排名(小->大):** `jedis.zrank("class1", "sad");`
 - **移除有序集合中的一个或多个成员,不存在将忽略:** `jedis.zrem("class1","xiaoming","sad","xiaowang")；`
+
+---
+#### 用处
+- 排行榜应用，取TOP N操作
+- 延时任务
+- 范围查找

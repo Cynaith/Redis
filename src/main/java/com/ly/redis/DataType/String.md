@@ -17,4 +17,7 @@
 - **递减2:** `jedis.decrBy("index")`
 - **在name后添加String:** `jedis.append("name","asd")`
 
+---
+#### 用处
+- 复杂的计数功能的缓存
 

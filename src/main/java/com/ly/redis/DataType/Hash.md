@@ -10,3 +10,6 @@
 - **返回Hash表中所有feilds:** `jedis.hkeys("bigCity2")`
 - **返回Hash表中所有values:** `jedis.hvals("bigCity2")`
 
+---
+#### 用处
+- 操作某个字段
