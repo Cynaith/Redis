@@ -19,3 +19,5 @@
 * [Redis和memcached区别](https://github.com/Cynaith/Redis/blob/master/src/main/java/com/ly/redis/Base/whyRedis.md)
 * [Redis是如何进行过期处理的](https://github.com/Cynaith/Redis/blob/master/src/main/java/com/ly/redis/Base/howToOverdue.md)
 * [Redis持久化机制(防止Redis挂掉后数据丢失)](https://github.com/Cynaith/Redis/blob/master/src/main/java/com/ly/redis/Base/persistenceForRedis.md)
+* [redis的6种数据淘汰策略]()
+* [缓存雪崩](https://github.com/Cynaith/Redis/blob/master/src/main/java/com/ly/redis/Base/cacheAvalanche.md)
