@@ -12,11 +12,7 @@
 - Redis可以通过创建快照来获得存储在内存里面的数据在某个时间点上的副本。Redis创建快照之后，可以对快照进行备份，可以将快照复制到其他服务器从而创建具有相同数据的服务器副本(Redis主从结构，主要用来提高Redis性能),还可以将快照留在原地以便重启服务器的时候使用。
 <br><br>快照持久化是Redis默认采用的持久化方式，在redis.conf配置文件中默认有此下配置:
     ```shell script
-    save 900 1           #在900秒(15分钟)之后，如果至少有1个key发生变化，Redis就会自动触发BGSAVE命令创建快照。
-    
-    save 300 10          #在300秒(5分钟)之后，如果至少有10个key发生变化，Redis就会自动触发BGSAVE命令创建快照。
-    
-    save 60 10000        #在60秒(1分钟)之后，如果至少有10000个key发生变化，Redis就会自动触发BGSAVE命令创建快照。
+    save 60 1000        #例如，如果更改了至少1000个键，此配置将使Redis每60秒自动将数据集转储到磁盘上
     ```
 
 ---
@@ -32,3 +28,8 @@
         appendfsync no        #让操作系统决定何时进行同步
     ```
     为了兼顾数据和写入性能，用户可以考虑 appendfsync everysec选项 ，让Redis每秒同步一次AOF文件，Redis性能几乎没受到任何影响。而且这样即使出现系统崩溃，用户最多只会丢失一秒之内产生的数据。当硬盘忙于执行写入操作的时候，Redis还会优雅的放慢自己的速度以便适应硬盘的最大写入速度。
+    
+    
+    
+    
+ For more information, please refer to [https://redis.io/topics/persistence](https://redis.io/topics/persistence)
