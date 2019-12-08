@@ -14,6 +14,16 @@
 * [Java操作Redis集合类型](https://github.com/Cynaith/Redis/blob/master/src/main/java/com/ly/redis/DataType/Set.md)
 * [Java操作Redis哈希类型](https://github.com/Cynaith/Redis/blob/master/src/main/java/com/ly/redis/DataType/Hash.md)
 * [Java操作Redis有序集合类型](https://github.com/Cynaith/Redis/blob/master/src/main/java/com/ly/redis/DataType/SortedSet1.md)
+* <font color =#ff2941>[位图](https://github.com/Cynaith/Redis/blob/master/src/main/java/com/ly/redis/DataType/BitMap.md)
+
+### Redis高级数据结构
+* [快速链表](https://github.com/Cynaith/Redis/blob/master/src/main/java/com/ly/redis/DataType/List.md)
+* [跳跃列表](https://github.com/Cynaith/Redis/blob/master/src/main/java/com/ly/redis/DataType/SortedSet1.md)
+* [HyperLogLog](https://github.com/Cynaith/Redis/blob/master/src/main/java/com/ly/redis/DataType/HyperLogLog.md)
+* [布隆过滤器](https://github.com/Cynaith/Redis/blob/master/src/main/java/com/ly/redis/Base/cacheThrough.md)
+
+### Redis高级算法
+* [GeoHash](https://github.com/Cynaith/Redis/blob/master/src/main/java/com/ly/redis/Algorithm/GeoHash.md)
 
 ### Redis常见问题
 * [容器型数据结构的通用规则](https://github.com/Cynaith/Redis/blob/master/src/main/java/com/ly/redis/Base/containerRules.md)
@@ -24,3 +34,4 @@
 * [缓存雪崩](https://github.com/Cynaith/Redis/blob/master/src/main/java/com/ly/redis/Base/cacheAvalanche.md)
 * [缓存穿透](https://github.com/Cynaith/Redis/blob/master/src/main/java/com/ly/redis/Base/cacheThrough.md)
 * [分布式锁](https://github.com/Cynaith/Redis/blob/master/src/main/java/com/ly/redis/Base/distributedLock.md)
+* [延时队列的实现](https://github.com/Cynaith/Redis/blob/master/src/main/java/com/ly/redis/Base/delayQueue.md)
