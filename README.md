@@ -25,6 +25,13 @@
 ### Redis高级算法
 * [GeoHash(坐标定位算法)](https://github.com/Cynaith/Redis/blob/master/src/main/java/com/ly/redis/Algorithm/GeoHash.md)
 * [scan(数据快速查询算法)](https://github.com/Cynaith/Redis/blob/master/src/main/java/com/ly/redis/Algorithm/Scan.md)
+
+### Redis集群
+* [主从复制模式]()
+* [sentinel(哨兵)模式]()
+* [cluster(集群)模式]()
+
+
 ### Redis常见问题
 * [容器型数据结构的通用规则](https://github.com/Cynaith/Redis/blob/master/src/main/java/com/ly/redis/Base/containerRules.md)
 * [Redis和memcached区别](https://github.com/Cynaith/Redis/blob/master/src/main/java/com/ly/redis/Base/whyRedis.md)
@@ -36,3 +43,4 @@
 * [分布式锁](https://github.com/Cynaith/Redis/blob/master/src/main/java/com/ly/redis/Base/distributedLock.md)
 * [延时队列的实现](https://github.com/Cynaith/Redis/blob/master/src/main/java/com/ly/redis/Base/delayQueue.md)
 * [为什么单线程的Redis能处理那么多的并发客户端连接?]()
+
