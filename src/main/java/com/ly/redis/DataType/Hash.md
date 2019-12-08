@@ -18,6 +18,6 @@
 #### 深入
 * rehash
     * Redis为追求高性能,不堵塞服务,所以采用渐进式rehash策略。
-    * **渐进式rehash:** 在rehash同时保留两个hash结构,查询时会查询两个hash结构。
+    * **渐进式rehash:** <br>在rehash同时保留两个hash结构,查询时会查询两个hash结构。
     <br>在后续的定时任务以及hash操作指令中,循序渐进地将旧hash的内容一点点地迁移到新的hash结构中。
     <br>当hash移除了最后一个元素之后,该数据结构被自动删除,内存被回收。
