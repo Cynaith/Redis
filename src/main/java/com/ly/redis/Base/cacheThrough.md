@@ -23,7 +23,7 @@
          ```
          测试Demo:
          ```java
-        public class demo{
+        public class Demo{
         private static int size = 1000000;//预计要插入多少数据
         
         private static double fpp = 0.01;//期望的误判率
@@ -57,5 +57,5 @@
 
 ---  
  refer to [https://www.cnblogs.com/zhanggguoqi/p/10571225.html](https://www.cnblogs.com/zhanggguoqi/p/10571225.html)
- <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[https://www.cnblogs.com/CodeBear/p/10911177.html](https://www.cnblogs.com/CodeBear/p/10911177.html)
+ <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[https://www.cnblogs.com/CodeBear/p/10911177.html](https://www.cnblogs.com/CodeBear/p/10911177.html)
     
