@@ -1,4 +1,4 @@
-## Java 操作列表类型(类似于双向队列)
+## Java 操作列表类型(类似于LinkedList)
 
 - **在列表头部添加数据:** `jedis.lpush("list", "xiaoming","age","20","address","beijing");`
 - **在列表尾部添加数据:** `jedis.rpush("height","170cm","hobby","dance");`
