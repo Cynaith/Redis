@@ -23,8 +23,8 @@
 * [布隆过滤器](https://github.com/Cynaith/Redis/blob/master/src/main/java/com/ly/redis/Base/cacheThrough.md)
 
 ### Redis高级算法
-* [GeoHash](https://github.com/Cynaith/Redis/blob/master/src/main/java/com/ly/redis/Algorithm/GeoHash.md)
-
+* [GeoHash(坐标定位算法)](https://github.com/Cynaith/Redis/blob/master/src/main/java/com/ly/redis/Algorithm/GeoHash.md)
+* [scan(数据快速查询算法)](https://github.com/Cynaith/Redis/blob/master/src/main/java/com/ly/redis/Algorithm/Scan.md)
 ### Redis常见问题
 * [容器型数据结构的通用规则](https://github.com/Cynaith/Redis/blob/master/src/main/java/com/ly/redis/Base/containerRules.md)
 * [Redis和memcached区别](https://github.com/Cynaith/Redis/blob/master/src/main/java/com/ly/redis/Base/whyRedis.md)
@@ -35,3 +35,4 @@
 * [缓存穿透](https://github.com/Cynaith/Redis/blob/master/src/main/java/com/ly/redis/Base/cacheThrough.md)
 * [分布式锁](https://github.com/Cynaith/Redis/blob/master/src/main/java/com/ly/redis/Base/distributedLock.md)
 * [延时队列的实现](https://github.com/Cynaith/Redis/blob/master/src/main/java/com/ly/redis/Base/delayQueue.md)
+* [为什么单线程的Redis能处理那么多的并发客户端连接?]()
