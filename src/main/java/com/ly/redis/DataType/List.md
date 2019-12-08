@@ -19,3 +19,13 @@
 #### 用处
 - 简单的消息队列
 - 利用lrange命令，做基于redis的分页功能
+
+---
+#### 深入
+* Redis底层存储是"快速链表(quickList)"结构
+    * 在<font color=#FF2941>列表元素较少</font>的情况下,会使用一块连续的内存存储,这个结构是ziplist(压缩列表)。
+    * <font color=#FF2941>数据量多</font>时改为quicklist。
+    * Redis将链表和ziplist结合起来组成了quicklist,将多个ziplist使用双向指针串起来使用
+    
+    
+    
