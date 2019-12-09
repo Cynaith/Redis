@@ -21,6 +21,7 @@
 * [跳跃列表](https://github.com/Cynaith/Redis/blob/master/src/main/java/com/ly/redis/DataType/SortedSet1.md)
 * [HyperLogLog](https://github.com/Cynaith/Redis/blob/master/src/main/java/com/ly/redis/DataType/HyperLogLog.md)
 * [布隆过滤器](https://github.com/Cynaith/Redis/blob/master/src/main/java/com/ly/redis/Base/cacheThrough.md)
+* 布谷鸟过滤器
 
 ### Redis高级算法
 * [GeoHash(坐标定位算法)](https://github.com/Cynaith/Redis/blob/master/src/main/java/com/ly/redis/Algorithm/GeoHash.md)
