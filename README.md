@@ -28,9 +28,9 @@
 * [scan(数据快速查询算法)](https://github.com/Cynaith/Redis/blob/master/src/main/java/com/ly/redis/Algorithm/Scan.md)
 
 ### Redis集群
-* [主从复制模式]()
-* [sentinel(哨兵)模式]()
-* [cluster(集群)模式]()
+* 主从复制模式
+* sentinel(哨兵)模式
+* cluster(集群)模式
 
 
 ### Redis常见问题
