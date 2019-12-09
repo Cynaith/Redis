@@ -43,5 +43,5 @@
 * [缓存穿透](https://github.com/Cynaith/Redis/blob/master/src/main/java/com/ly/redis/Base/cacheThrough.md)
 * [分布式锁](https://github.com/Cynaith/Redis/blob/master/src/main/java/com/ly/redis/Base/distributedLock.md)
 * [延时队列的实现](https://github.com/Cynaith/Redis/blob/master/src/main/java/com/ly/redis/Base/delayQueue.md)
-* [为什么单线程的Redis能处理那么多的并发客户端连接?]()
+* 为什么单线程的Redis能处理那么多的并发客户端连接?
 
